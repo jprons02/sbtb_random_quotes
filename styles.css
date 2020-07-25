@@ -1,0 +1,197 @@
+html, body {
+    min-height: 100%;
+    height: 100%;
+    background-image: url("https://i.imgur.com/NXRZg4f.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*border: solid blue 4px;*/ 
+  }
+  
+  .quoteSection {
+    position: relative;
+    height: 60%;
+    width: 60%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .paddingQ {
+    /*border: solid purple 4px;*/
+    box-shadow: 3px 3px 17px black;
+    width: 80%;
+  }
+  
+  .row #textW {
+    width: 100%;
+    padding: 7%;
+  }
+  
+  .buttonsMargin {
+    margin-top: 7%;
+    margin-bottom: -3%;
+  }
+  
+  .row #buttonW {
+    width: 100%;
+  }
+  
+  #tweetThis {
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 1px solid #3d3d3d;
+    background-color: transparent;
+    box-shadow: none;
+  }
+  
+  .fa, .fa-twitter {
+    color: #3d3d3d;
+    font-size: 283%;
+  }
+  
+  #getQuote { 
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 1px solid #3d3d3d;
+    background-color: transparent;
+    color: #3d3d3d;
+    font-weight: bold;
+    font-size: 200%;
+    font-family: 'Architects Daughter', cursive;
+    box-shadow: none;
+  }
+  
+  #getQuote:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  #tweetThis:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  .quoteT {
+    /*border: solid red 2px;*/
+    margin-top: -7%;
+    color: #3d3d3d;
+    /*font-family: 'Covered By Your Grace', cursive;*/
+    font-family: 'Architects Daughter', cursive;
+    font-size: 300%;
+  }
+  
+  .quoteA {
+    /*border: solid red 2px;*/
+    color: #3d3d3d;
+    /*font-family: 'Covered By Your Grace', cursive;*/
+    font-family: 'Architects Daughter', cursive;
+    font-size: 200%;
+    margin-right: 8%;
+    text-align: right;
+  }
+  
+  .imgDiv {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin-top: -18px;
+    margin-left: -18px;
+    /*border: solid black 1px;*/
+  }
+  .imgDiv img {
+    border: solid black 2px;
+  }
+  
+  
+  
+     /* Custom, iPhone Retina */ 
+  @media only screen and (min-width : 320px) {
+    .quoteSection {
+      position: relative;
+      height: 70%;
+      width: 100%;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+    .paddingQ {
+      /*border: solid purple 4px;*/
+      box-shadow: 3px 3px 17px black;
+      width: 100%;
+    }
+    .quoteT {
+      font-size: 160%;
+    }
+    .quoteA {
+      font-size: 130%;
+    }
+    .fa, .fa-twitter {
+      font-size: 200%;
+    }
+    #getQuote {
+      font-size: 150%;
+    }
+    
+  }
+  
+      /* Extra Small Devices, Phones */ 
+  @media only screen and (min-width : 480px) {
+    .quoteSection {
+      position: relative;
+      height: 70%;
+      width: 70%;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .paddingQ {
+      /*border: solid purple 4px;*/
+      box-shadow: 3px 3px 17px black;
+      width: 100%;
+    }  
+      .quoteT {
+      font-size: 210%;
+    }
+    .quoteA {
+      font-size: 170%;
+    }
+    .fa, .fa-twitter {
+      font-size: 200%;
+    }
+    #getQuote {
+      font-size: 150%;
+    }
+  }
+  
+      /* Small Devices, Tablets */
+  @media only screen and (min-width : 768px) {
+    .quoteSection {
+      position: relative;
+      height: 60%;
+      width: 50%;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .paddingQ {
+      /*border: solid lightgrey 1px;*/
+      box-shadow: 3px 3px 17px black;
+      width: 100%;
+    }  
+  }
+  
+  
+  /* notebook paper stolen from someone else at codepen */
+  #notebook-paper {
+    background: linear-gradient(to bottom,white 29px,#00b0d7 1px);
+    margin: 50px auto;
+    background-size: 100% 30px;
+    }
+  
