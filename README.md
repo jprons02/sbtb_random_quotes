@@ -1,2 +1,2 @@
-# sbtb_random_quotes
-Random quote generator
+# Saved by the Bell Random Quote Generator
+
